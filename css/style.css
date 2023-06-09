@@ -1,10 +1,28 @@
+/* Nav/Standard */
+header { 
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+display:grid;
+
+margin-top: 0px;
+/* Blue */
+color: #0065FC;
+}
+nav{
+
+}
+
+
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
 }
-header{
-    display:grid
-}
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
