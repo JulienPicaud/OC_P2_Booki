@@ -1,30 +1,47 @@
-/* Nav/Standard */
+/* Header */
 header { 
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 19px;
-/* identical to box height */
 display:flex;
 justify-content:space-between;
-
-margin-top: 0px;
-/* Blue */
+margin-top: 10px;
 color: #0065FC;
 }
+
 nav a {
-margin-top: 50px;
 text-decoration: none;
-padding: 0 10px;
-margin-top: 5px;
+padding: 10px;
+width: 100%;
 }
+
 nav a:hover{border-top: solid 2px #0065FC;
 }
 
 .logoimg {
     width: 60px;
     height: 20px;
+}
+
+/* Titres */
+h1{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+margin-top: 2.5em;
+}
+h2{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
 }
 
 /****** General ***********/
