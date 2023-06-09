@@ -6,7 +6,8 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 /* identical to box height */
-display:grid;
+display:flex;
+justify-content:space-between;
 
 margin-top: 0px;
 /* Blue */
