@@ -101,6 +101,44 @@ body {
 .neutralStar {
     color: var(--main-bg-color)
 }
+/******* Section recherche *******/
+.conteneurs-recherche{
+display:flex;
+justify-content:flex-start;
+margin: 0;
+padding: 0;
+}
+
+.fa-location-dot{
+    background-color: #F2F2F2;
+    padding: 15px 18px 16px 18px;
+    border-radius: 15px 0px 0px 15px;
+    color: black;
+}
+input{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    padding: 8px;
+    border: 1px solid white;
+    margin: 0;
+}
+button{
+background: #0065FC;
+border: 1px solid #0065FC;
+border-radius: 0px 15px 15px 0px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+padding: 14px 16px 14px 16px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
