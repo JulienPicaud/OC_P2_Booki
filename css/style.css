@@ -83,15 +83,7 @@ body {
     line-height: 26px;    
     color: #000000;    
 }
-.sections-title {
-    margin: 0px 0px 0px 30px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 26px;    
-    color: #000000;    
-}
+
 .card {
     background-color: white;
     border-radius: 20px;
@@ -204,6 +196,22 @@ color: #000000;
 .pepite:hover{
     background: #DEEBFF;
 }
+
+/******* Section encart info *******/
+.encart{
+    display:flex;
+    justify-content: flex-start;
+    margin: 45px 0px 37.5px 0px;
+}
+.texte-info{
+    width: 1306px;
+height: 19px;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin-left: 10px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -258,7 +266,10 @@ color: #000000;
 .cards-rating{
     margin: 8px 0px 15px 15px;
 }
-
+.afficher-plus{
+font-weight: 700;
+font-size: 18px;
+}
 
 /****** Populaires ***********/
 .populaires {
