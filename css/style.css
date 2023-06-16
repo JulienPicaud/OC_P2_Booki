@@ -140,6 +140,57 @@ color: #FFFFFF;
 padding: 14px 16px 14px 16px;
 }
 
+/******* Section filtres *******/
+
+.filtre{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+}
+.filtre-concret{
+    display:flex;
+}
+.fifi{
+    margin-top: 39px;
+}
+.fami{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    border-color:#b5b4b4bd;
+    margin: 20px 15px 0px 15px;
+    padding: 10px 22px;
+}
+.eco{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    border-color:#b5b4b4bd;
+    margin: 20px 15px 0px 15px;
+    padding: 10px 22px;
+}
+.romantique{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    border-color:#b5b4b4bd;
+    margin: 20px 15px 0px 15px;
+    padding: 10px 22px;
+}
+.pepite{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    border-color:#b5b4b4bd;
+    margin: 20px 15px 0px 15px;
+    padding: 10px 22px;
+}
+.pepite:hover{
+    background: #DEEBFF;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
