@@ -344,6 +344,15 @@ font-size: 18px;
     margin: 4px 15px 8px 15px;
     padding-top: 10px;
 }
+.section-titre {
+    margin: 65px 0px 0px 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;    
+    color: #000000;    
+}
 
 
 
