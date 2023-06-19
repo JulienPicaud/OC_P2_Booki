@@ -316,6 +316,34 @@ font-size: 18px;
     margin-bottom: 5px;
 }
 
+/****** Cartes activités ******/
+.all-cartes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.cartes-act{
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    width: 297px;
+    height: 380px;
+    margin-bottom: 30px;
+    padding-bottom: 59px;    
+}
+.carte img{
+    object-fit: cover;
+    width: 297px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+.carte-title {
+    font-size: 16px;
+    margin: 4px 15px 8px 15px;
+    padding-top: 10px;
+}
 
 
 
