@@ -354,6 +354,28 @@ font-size: 18px;
     color: #000000;    
 }
 
+/***** Footer *****/
+.triple-bloc{
+    background-color: #F2F2F2;
+    height: 163px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
+.bloc{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.blocun{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: left;
+}
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
