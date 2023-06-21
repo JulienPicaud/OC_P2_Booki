@@ -69,8 +69,8 @@ body {
 
 .main-container {
     width: 100%;
-    max-width: 1440px;
     padding: 0 50px;
+    max-width: 1440px;
     box-sizing: border-box;
 }
 
@@ -125,7 +125,7 @@ input{
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
     color: #000000;
     padding: 8px;
     border: 1px solid white;
@@ -362,18 +362,23 @@ font-size: 18px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
+    padding: 10px 20px 20px 20px;
     
 }
 .bloc{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 33%;
 }
 .blocun{
     display:flex;
     flex-direction: column;
     list-style: none;
     justify-content: left;
+}
+a{
+    text-decoration: none;
 }
 
 
