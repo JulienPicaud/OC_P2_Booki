@@ -381,6 +381,13 @@ font-size: 18px;
     justify-content:space-around;
 
 }
+.test-foot{
+    display: flex;
+    width: 66%;
+    justify-content: space-around;
+    padding-bottom: 40px;
+
+}
 
 .menu-footi{
         font-weight: 700;
@@ -449,6 +456,9 @@ a{
     }
     .carte-title{
         padding-top: 4px;
+    }
+    form{
+        margin-top: 50px;
     }
 }
 
