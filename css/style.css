@@ -18,7 +18,10 @@ padding: 10px;
 width: 100%;
 }
 
-nav a:hover{border-top: solid 2px #0065FC;
+nav a:hover{
+    border-top: solid 2px #0065FC;
+    color: #0065FC;
+
 }
 
 .logoimg {
@@ -68,12 +71,13 @@ color: #000000;
 body {
     display: flex;
     justify-content: center;
-}
-
-.main-container {
+    flex-direction: column;
     width: 100%;
-    padding: 0 50px;
     max-width: 1440px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
 }
 
 .section-title {
@@ -143,6 +147,11 @@ line-height: 21px;
 text-align: center;
 color: #FFFFFF;
 padding: 14px 16px 14px 16px;
+}
+.loupe{
+    visibility: hidden;
+    border-radius: 15px;
+
 }
 
 /******* Section filtres *******/
@@ -363,6 +372,7 @@ font-size: 18px;
     height: 163px;
     display:flex;
     padding:20px;
+    
 }
 .bloc{
     display:flex;
@@ -393,11 +403,12 @@ a{
         flex-direction: column;
     }
     .logoimg{
-        width: 5%;
-        height:15px;
+        width: 8%;
+        height:25px;
+        padding:15px;
     }
     nav a:hover{
-        border-top: solid 0px #0065FC;
+        border-top: solid 1px #0065FC;
         color: #0065FC;
     }
 .fifi{
@@ -445,6 +456,7 @@ a{
 @media (max-width: 767.98px) {
 
     body{
+        padding:0px;
     }
                 /****** HEADER *******/
     header{
@@ -474,47 +486,60 @@ a{
 
     /* FORMULAIRE RECHERCHE */
 
+    .rechercher{
+        display:none;
+    }
+    .loupe{
+        visibility: visible;
+        border-radius: 15px;
 
+    }
+    input{
+        width:45%;
+
+    }
     /* FILTRES */
     
     .filtre{
-        justify-content: space-around;
+        justify-content: space-between;
         text-align: left;
     }
     .filtre-concret{
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 0px 30px;
+
     }
     .eco{
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     border-color:#b5b4b4bd;
     margin: 20px 15px 0px 15px;
-    padding: 10px 22px;
-    width: 10em;
+    padding: 15px 22px;
+    width: 150px;
     }
     .pepite{
         border: 2px solid #D9D9D9;
         border-radius: 25px;
         border-color:#b5b4b4bd;
         margin: 20px 15px 0px 15px;
-        padding: 10px 22px;
-        width: 10em;
+        padding: 15px 22px;
+        width: 150px;
         }
         .romantique{
             border: 2px solid #D9D9D9;
             border-radius: 25px;
             border-color:#b5b4b4bd;
             margin: 20px 15px 0px 15px;
-            padding: 10px 22px;
-            width: 10em;
+            padding: 15px 22px;
+            width: 150px;
             }
             .fami{
                 border: 2px solid #D9D9D9;
                 border-radius: 25px;
                 border-color:#b5b4b4bd;
                 margin: 20px 15px 0px 15px;
-                padding: 10px 22px;
-                width: 10em;
+                padding: 15px 22px;
+                width: 150px;
                 }
     /* HEBERGEMENT ET POPULAIRE */
     .hebergements-and-populaires{
@@ -560,9 +585,13 @@ a{
 
 
     .triple-bloc{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
     }
     .bloc{
-        flex-direction: row-reverse;
+        flex-wrap: wrap;
+
     }
 
 }
