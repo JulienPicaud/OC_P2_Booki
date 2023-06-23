@@ -471,6 +471,9 @@ a{
         justify-content: flex-start;
 
     }
+    main h1,H2{
+        margin: 15px;
+    }
     .logoimg{
         width: 120px;
         height:40px;
@@ -482,6 +485,7 @@ a{
         justify-content: space-around;
         text-align: center;
         border-bottom: solid 2px #DEEBFF;
+        margin-bottom: 30px;
 
 
     }
@@ -498,11 +502,11 @@ a{
     .loupe{
         visibility: visible;
         border-radius: 15px;
-
     }
-    input{
-        width:45%;
 
+    form{
+        margin: 40px 15px;
+        width: 100%;
     }
     /* FILTRES */
     
@@ -510,41 +514,43 @@ a{
         justify-content: space-between;
         text-align: left;
     }
+    .fifi{
+        margin-left: 15px;
+    }
     .filtre-concret{
         justify-content: space-between;
-        padding: 0px 30px;
-
+        flex-wrap: wrap;
     }
     .eco{
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     border-color:#b5b4b4bd;
-    margin: 20px 15px 0px 15px;
-    padding: 15px 22px;
+    margin: 20px 10px 0px 10px;
+    padding: 15px 0px 15px 10px;
     width: 150px;
     }
     .pepite{
         border: 2px solid #D9D9D9;
         border-radius: 25px;
         border-color:#b5b4b4bd;
-        margin: 20px 15px 0px 15px;
-        padding: 15px 22px;
+        margin: 20px 10px 0px 10px;
+        padding: 15px 0px 15px 10px;
         width: 150px;
         }
         .romantique{
             border: 2px solid #D9D9D9;
             border-radius: 25px;
             border-color:#b5b4b4bd;
-            margin: 20px 15px 0px 15px;
-            padding: 15px 22px;
+            margin: 20px 10px 0px 10px;
+            padding: 15px 0px 15px 10px;
             width: 150px;
             }
             .fami{
                 border: 2px solid #D9D9D9;
                 border-radius: 25px;
                 border-color:#b5b4b4bd;
-                margin: 20px 15px 0px 15px;
-                padding: 15px 22px;
+                margin: 20px 10px 0px 10px;
+                padding: 15px 0px 15px 10px;
                 width: 150px;
                 }
     /* HEBERGEMENT ET POPULAIRE */
@@ -562,10 +568,15 @@ a{
     }
     .populaires-cards .card {
         width: 100%;
+        margin:10px 10px 10px 0px;
+
     }
     .populaires{
         margin-bottom: 25px;
         width: 100%;
+        border-radius: 0 !important;
+    }
+    .card{
     }
 
 
@@ -583,6 +594,9 @@ a{
 
     /* ACTIVITE A MARSEILLE */
 
+    .activites{
+        margin: 5px 15px;
+    }
     .all-cartes{
         display:flex;
         flex-direction: column;
@@ -602,7 +616,7 @@ a{
     .bloc{
         justify-content: space-between;
         flex-wrap: wrap;
-        margin: 30px 0px;
+        margin: 15px 0px;
         width: 100%;
     }
     .bloc a{
