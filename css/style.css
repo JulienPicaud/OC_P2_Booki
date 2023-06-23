@@ -74,10 +74,10 @@ body {
     flex-direction: column;
     width: 100%;
     max-width: 1440px;
+    margin:0px;
     padding: 0 50px;
     box-sizing: border-box;
     overflow-x: hidden;
-
 }
 
 .section-title {
@@ -369,7 +369,6 @@ font-size: 18px;
 /***** Footer *****/
 .triple-bloc{
     background-color: #F2F2F2;
-    height: 163px;
     display:flex;
     padding:20px;
     
@@ -378,16 +377,10 @@ font-size: 18px;
     display:flex;
     flex-direction: column;
     width: 33%;
-    justify-content:space-around;
+    justify-content:space-between;
 
 }
-.test-foot{
-    display: flex;
-    width: 66%;
-    justify-content: space-around;
-    padding-bottom: 40px;
 
-}
 
 .menu-footi{
         font-weight: 700;
@@ -593,15 +586,19 @@ a{
     
     /* FOOTER */
 
-
     .triple-bloc{
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
         width: 100%;
     }
     .bloc{
+        justify-content: space-between;
         flex-wrap: wrap;
-
+        margin: 30px 0px;
+        width: 100%;
+    }
+    .bloc a{
+margin: 10px 0px;
     }
 
 }
