@@ -79,8 +79,25 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
 }
-
 .section-title {
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;    
+    color: #000000;    
+}
+#section-title {
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;    
+    color: #000000;    
+}
+#section-title-un {
     margin: 0;
     font-family: 'Raleway';
     font-style: normal;
@@ -359,7 +376,7 @@ font-size: 18px;
     margin: 4px 15px 8px 15px;
     padding-top: 4%;
 }
-.section-titre {
+#section-titre-un {
     margin: 65px 0px 0px 0px;
     font-family: 'Raleway';
     font-style: normal;
@@ -509,9 +526,17 @@ flex-wrap: nowrap;}
     }
 
     form{
-        margin: 40px 15px;
+        margin: 40px 15px 40px 0px;
         width: 100%;
     }
+    .conteneurs-recherche{
+        width: 100%;
+        margin-left:0px;
+    }
+    input{
+        width: 208px;
+    }
+
     /* FILTRES */
     
     .filtre{
