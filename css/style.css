@@ -455,7 +455,7 @@ flex-wrap: nowrap;}
     }
 
     .populaires-cards .card {
-        width: 30%;
+        width: 70%;
     }
 
     .populaires-cards .card-title {
@@ -611,8 +611,7 @@ flex-wrap: nowrap;}
         width: 100%;
         border-radius: 0 !important;
     }
-    .card{
-    }
+ 
 
 
     /* HEBERGEMENTS */
@@ -624,7 +623,6 @@ flex-wrap: nowrap;}
     }
     
     .cards{
-        width: 100%;
     }
 
     /* ACTIVITE A MARSEILLE */
